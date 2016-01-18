@@ -1,0 +1,65 @@
+Daily Fit Monitor PLAN.txt
+
+--------------------------------------------------------------------------------
+DATABASE 
+Food Nutrition database
+- Food Entry
+-- food name
+-- serving size (g)
+-- calories per serving
+-- carbohydrates per serving
+-- sugars per serving
+-- fats per serving
+-- protein per serving
+-- sodium per serving
+
+Activity Calorie database
+- Activity Entry
+-- activity name
+-- calories per minute baseline
+-- calories per minute as a multiple of body weight
+
+Daily Activity Log
+- Activity Entry
+-- duration
+
+Daily Food Log
+- Meal Entry
+-- food
+-- amount
+
+Daily Weight Log
+- Weight Log Entry
+-- Day's Weight
+
+Body Measurement Log
+- BM Log Entry
+-- neck circumference
+-- belly circumference
+-- waist circumference
+--------------------------------------------------------------------------------
+UI Screens
+Login
+- username
+- password
+
+Main
+- Weight
+- Calories Consumed/Left for today
+- Graph
+- Controls
+
+New Day Weight
+- Weight
+
+New Meal
+- food table
+- add food option
+- show total nutritions
+
+New Food
+- food name
+- calories per serving
+- serving size
+- units (dropdown)
+
