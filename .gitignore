@@ -1,0 +1,15 @@
+*.db
+*.pid
+*.pyc
+*.sqlite
+.idea
+.DS_Store
+.coverage
+.project
+env
+target
+htmlcov
+*/static/gen/*
+*.pyc
+
+
