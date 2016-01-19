@@ -21,6 +21,7 @@ Activity Calorie database
 
 Daily Activity Log
 - Activity Entry
+-- activity
 -- duration
 
 Daily Food Log
@@ -43,23 +44,76 @@ Login
 - username
 - password
 
-Main
+Main (Home)
 - Weight
 - Calories Consumed/Left for today
 - Graph
 - Controls
 
+Goals
+- Daily nutrition goals summary
+-- Calories
+-- Carbs
+-- Fats
+-- Proteins
+- Fitness
+-- Calories burned/week
+-- Workouts/week
+-- Minutes/workout
+- Micronutrients
+-- Saturated Fat
+-- Polyunsaturated Fat
+-- Monounsaturated Fat
+-- Trans Fat
+-- Cholesterol
+-- Sodium
+-- Potassium
+-- Fiber
+-- Sugar
+-- Vitamin A
+-- Vitamin C
+-- Calcium
+-- Iron
+
+Food
+- Calendar control + today's date
+- meal table for today
+- nutrition summary for today
+- add food to meal
+- finish the day's entries
+- notes
+
+Exercise
+- Calendar control + today's date
+- Cardio tracker
+-- exercises (minutes + calories burned)
+-- add exercise button
+- Strength tracker
+-- exercises (reps + weight)
+-- add exercise button
+- Notes
+
+
 New Day Weight
 - Weight
 
-New Meal
+New Meal Template
 - food table
 - add food option
 - show total nutritions
 
-New Food
+New Food Entry
 - food name
 - calories per serving
 - serving size
 - units (dropdown)
+
+New Recipe
+- Recipe Name
+- # of servings
+- add ingredient (food + amount)
+- table of ingredients and their contained nutrients
+- total nutrients per recipe and per serving
+- button to save recipe
+
 
