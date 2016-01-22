@@ -1,7 +1,5 @@
-from . import db
+from app import db
 from flask.ext.security import RoleMixin
-
-__author__ = 'rburke'
 
 class Role(db.Model, RoleMixin):
     id = db.Column(db.Integer(), primary_key=True)

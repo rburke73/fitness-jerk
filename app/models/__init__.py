@@ -1,10 +1,5 @@
-from flask.ext.sqlalchemy import SQLAlchemy
-from .. import app
+from user import User
+from role import Role
+from roles_users import RolesUsers
 
-__author__ = 'rburke'
 
-db = SQLAlchemy(app)
-
-roles_users = db.Table('roles_users',
-        db.Column('user_id', db.Integer(), db.ForeignKey('user.id')),
-        db.Column('role_id', db.Integer(), db.ForeignKey('role.id')))
