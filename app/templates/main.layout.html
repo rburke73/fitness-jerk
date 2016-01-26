@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% include "_head.html" %}
-  {% block head_css %}{% endblock %}
+    {% include "layout/_head.html" %}
+    {% block head_css %}{% endblock %}
 </head>
 <body>
 
-    <!-- Main View -->
-    <div>
-        {% block content %}
-        {%  endblock %}
+<!-- Main View -->
+<div>
+    <div class="container-fluid">
+        <div class="span2">
+            {% include "layout/sidebar.html" %}
+        </div>
+        <div class="span10">
+            <div class=".block">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
     </div>
+</div>
 </body>
